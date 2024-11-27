@@ -14,6 +14,7 @@ This project demonstrates the setup of a **Basic Local Area Network (LAN)** in *
 ## Project Steps
 1. **Open Cisco Packet Tracer**: Start a new project in Cisco Packet Tracer.
 2. **Add Devices**: Drag and drop a **Router**, **Switch**, and **2-3 PCs** onto the workspace.
+     ![Network Topology](https://github.com/dilpreet-kaur11/Basic-LAN-Project/raw/main/Network_Topology.png)
 3. **Cable Connections**: 
    - Connect the router to the switch using a copper straight-through cable.
    - Connect the PCs to the switch using copper straight-through cables.
@@ -26,9 +27,17 @@ This project demonstrates the setup of a **Basic Local Area Network (LAN)** in *
    - `Router(config)#interface fastEthernet 0/0`
    - `Router(config-if)#ip address 192.168.1.1 255.255.255.0`
    - `Router(config-if)#no shutdown`
-6. **Test Connectivity**: 
+      ![Router Configuration](https://github.com/dilpreet-kaur11/Basic-LAN-Project/raw/main/Router_Configuration.png)
+7. **Test Connectivity**: 
    - Use the **ping** command from one PC to another to verify network connectivity.
    - Example: `ping 192.168.1.3` from PC1 to PC2.
+      ![Ping Test Result](https://github.com/dilpreet-kaur11/Basic-LAN-Project/raw/main/Ping_Test_Result.png)
+8. **Final Network Setup
+   -Here is the final network setup showing all devices and configurations:
+
+      ![Final Network Setup](https://github.com/dilpreet-kaur11/Basic-LAN-Project/raw/main/Final_Network_Setup.png)
+
+
 
 ## How to Use
 1. Download the `.pkt` file from this repository.
